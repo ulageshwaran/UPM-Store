@@ -189,7 +189,7 @@ lz4
 Markdown 
 markdown-it-py 
 MarkupSafe 
-marshmallow==3.21.
+marshmallow==3.21.0
 matplotlib 
 matplotlib-inline 
 mccabe 
