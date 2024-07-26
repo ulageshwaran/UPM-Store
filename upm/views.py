@@ -32,7 +32,7 @@ def contact(request):
                 'text':text,
             })
             send_mail('The contact form subject', 'This is the message', 'noreply@mohanrajlenova.com', ['mohanrajlenova@gmail.com'], html_message=html)
-            form.save()            
+            form.save()                    
             messages.info(request, "Message Sent Successfully")
             return redirect('contact')
     return render(request, "contact.html", {'form':form})
@@ -49,3 +49,9 @@ def team(request):
 
 def r404(request):
     return render(request, "404.html")
+
+def web(request):
+    return render(request, "webT.html")
+
+def poster(request):
+    return render(request, "posterT.html")

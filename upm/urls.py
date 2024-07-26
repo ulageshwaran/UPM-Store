@@ -9,4 +9,6 @@ urlpatterns = [
     path("service", views.service, name="service"),
     path("team", views.team, name="team"),
     path("404", views.r404, name="404"),
+    path("web", views.web, name="web"),
+    path("poster", views.poster, name="poster"),
 ]
